@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-white-1: rgb(248, 241, 241);
+  --background-white-2: rgb(248, 248, 248);
+  --main-page-color: rgb(81, 197, 17);
+  --main-page-color-70: rgb(81, 197, 17, 0.7);
+  --main-page-color-40: rgb(81, 197, 17, 0.4);
+  --black-95: rgba(0, 0, 0, 0.95);
+  --black-80: rgba(0, 0, 0, 0.8);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black-30: rgba(0, 0, 0, 0.3);
+  --white-80: rgba(248, 241, 241, 0.8);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --text-white-1: #ececec;
+  --text-color-2: #6f6f6f;
+  --fb-blue: #0866ff;
+  --ig-violet: rgb(240, 0, 140);
+  --line-color: rgb(163, 210, 202);
+  --nav-height: 82px;
+}
+.target {
+  scroll-margin-top: var(--nav-height);
+}
+
+@layer utilities {
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--background-white-1);
+}
+.flexCenter {
+  @apply flex items-center justify-center;
+}
+.gradient-background {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 241, 241, 0),
+    rgb(248, 241, 241, 0.85)
+  );
+}
+.gradient-background-down {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 241, 241, 0.85),
+    rgb(248, 241, 241, 0)
+  );
+}
