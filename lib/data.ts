@@ -170,4 +170,52 @@ export const pricePlans = [
 			'czas trwania kursu 2-3 tygodnie',
 		],
 	},
+	{
+		id: 'A1',
+		title: 'Kurs podstawowy kat. A1',
+		planTitle: 'EKSTERNISTYCZNY',
+		price: '2000',
+
+		characteristic: [
+			'20 godzin jazd praktycznych',
+			'zajęcia z ratownikiem medycznym',
+			'jazda po placu egzaminacyjnym WORD',
+			'wszelkie niezbędne materiały do nauki i dostęp do bazy pytań',
+			'możliwość rozłożenia płatności na raty',
+			'e-learning',
+			'Zajęcia praktyczne na: Honda CB 125 F z możliwością podstawienia na egzamin praktyczny w WORD',
+		],
+	},
+	{
+		id: 'A2',
+		title: 'Kurs podstawowy kat. A2',
+		planTitle: 'EKSTERNISTYCZNY',
+		price: '2500',
+
+		characteristic: [
+			'20 godzin jazd praktycznych',
+			'zajęcia z ratownikiem medycznym',
+			'jazda po placu egzaminacyjnym WORD',
+			'wszelkie niezbędne materiały do nauki i dostęp do bazy pytań',
+			'możliwość rozłożenia płatności na raty',
+			'e-learning',
+			'Zajęcia praktyczne na: Honda CB 500 Hornet z możliwością podstawienia na egzamin praktyczny w WORD',
+		],
+	},
+	{
+		id: 'A',
+		title: 'Kurs podstawowy kat. A',
+		planTitle: 'EKSTERNISTYCZNY',
+		price: '3000',
+
+		characteristic: [
+			'20 godzin jazd praktycznych',
+			'zajęcia z ratownikiem medycznym',
+			'jazda po placu egzaminacyjnym WORD',
+			'wszelkie niezbędne materiały do nauki i dostęp do bazy pytań',
+			'możliwość rozłożenia płatności na raty',
+			'e-learning',
+			'Zajęcia praktyczne na: Yamaha MT07 z możliwością podstawienia na egzamin praktyczny w WORD',
+		],
+	},
 ];
