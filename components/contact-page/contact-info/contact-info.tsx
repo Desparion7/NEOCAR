@@ -23,7 +23,7 @@ const neocarData = [
 	{
 		icon: RiHomeOfficeFill,
 		title: 'Biuro czynne',
-		value: ['Godziny otwarcia:', 'Poniedziałek, Środa, Piątek 10:30-14:30', 'Wtorek, Czwartek 13:00-17:00'],
+		value: ['Godziny otwarcia:', 'Poniedziałek 11:00-16:00, Środa, Czwartek 11:00-15:00'],
 	},
 ];
 

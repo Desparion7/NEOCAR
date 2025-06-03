@@ -12,8 +12,8 @@ const OurLocation = () => {
       <h4 className='text-lg lg:text-xl mb-2'>
         Dokładna lokalizacja kursu stacjonarnego w Rzeszowie:
       </h4>
-      <p>ul. Stefana Żeromskiego 6/4</p>
-      <p>35-001 Rzeszów</p>
+      <p>ul. Jałowego 20</p>
+      <p>35-010 Rzeszów</p>
       <NavigateBtn
         text='Zapisz się już dziś!'
         link='/#signup'
