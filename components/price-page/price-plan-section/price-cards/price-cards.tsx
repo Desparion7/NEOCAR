@@ -30,6 +30,12 @@ const PriceCards = () => {
 						price={
 							data.loading
 								? 'Ładowanie...'
+								: plan.id === 'STANDARDOWY-A'
+								? data.pageData[0].acf.cena_za_kurs_podstawowy_automat.toString()
+								: plan.id === 'EKSTERNISTYCZNY-A'
+								? data.pageData[0].acf.cena_za_kurs_podstawowy_automat.toString()
+								: plan.id === 'fast-A'
+								? data.pageData[0].acf.cena_za_kurs_przyspieszony_automat.toString()
 								: plan.id === 'fast'
 								? data.pageData[0].acf.cena_za_kurs_przyspieszony.toString()
 								: plan.id === 'A'

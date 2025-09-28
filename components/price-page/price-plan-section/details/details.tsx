@@ -86,8 +86,7 @@ const Details = () => {
 					zniżki na kurs
 				</h3>
 				<h3 className='font-bold text-center lg:text-start'>
-					Promocja dla wszystkich uczniów i studentów - dodatkowa 1
-					godzina jazdy gratis !!!
+					Promocja: Godzina jazdy gratis lub wjazd na plac egzaminacyjny WORD !!!
 				</h3>
 				<div className='h-[2px] w-[60%] bg-[var(--main-page-color-40)]' />
 			</div>

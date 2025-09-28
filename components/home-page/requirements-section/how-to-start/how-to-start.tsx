@@ -100,7 +100,7 @@ const DocuementBtn = ({ text, style, road }: DocuementBtn) => {
       whileTap={{ scale: 0.95 }}
       transition={{ type: 'spring', stiffness: 300 }}
       className={cn(
-        'bg-[var(--main-page-color)] rounded-md shadow-2xl text-[var(--text-white-1)] font-semibold tracking-wider px-2 py-3 xl:px-2 xl:py-3 text-xs xl:text-base ',
+        'bg-white rounded-md shadow-2xl text-[var(--text-white-1)] font-semibold tracking-wider px-2 py-3 xl:px-2 xl:py-3 text-xs xl:text-base ',
         style
       )}>
       {text}

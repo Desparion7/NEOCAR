@@ -3,7 +3,9 @@ export type AcfDataType = {
 		cena_za_jazdy_dodatkowe_kursantow: number;
 		cena_za_jazdy_dodatkowe_kursantow_A: number;
 		cena_za_kurs_podstawowy: number;
+		cena_za_kurs_podstawowy_automat: number;
 		cena_za_kurs_przyspieszony: number;
+		cena_za_kurs_przyspieszony_automat: number;
 		cena_za_kurs_A: number;
 		cena_za_kurs_A1: number;
 		cena_za_kurs_A2: number;
