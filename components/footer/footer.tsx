@@ -17,7 +17,7 @@ const sectionOneData = [
 const sectionTwoData = [
   {
     title: 'Biuro',
-    text: ['Godziny otwarcia:', 'Poniedziałek 11:00-16:00, Środa, Czwartek 11:00-15:00'],
+    text: ['Godziny otwarcia:', 'Poniedziałek, Wtorek 11:00-16:00, Środa, Czwartek 12:00-16:00'],
   },
 ];
 const sectionThreeData = [
