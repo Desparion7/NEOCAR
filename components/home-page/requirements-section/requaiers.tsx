@@ -33,6 +33,14 @@ const Requirements = () => {
           className='relative flex items-center justify-around flex-col-reverse '
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}>
+             <Image
+            src='https://osk-neocar.pl/images/bike_2.png'
+            alt='motocykl'
+            width={453}
+            height={550}
+            loading='lazy'
+            className=' md:hidden mt-6'
+          />
           <Image
             src={car_2}
             alt='samochód'

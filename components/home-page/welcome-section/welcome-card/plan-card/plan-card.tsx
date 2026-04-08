@@ -36,6 +36,13 @@ const PlanCard = () => {
         transition={{ type: 'spring', stiffness: 100, delay: 0.5 }}>
         <Image src={car} alt='car_photo' priority fill sizes='100vh' />
       </motion.div>
+      <motion.div
+        className='hiden absolute h-full md:right-[156px] md:top-[-50px] md:w-[280px] md:h-[280px] lg:right-[164px] lg:top-[-50px] lg:w-[290px] lg:h-[290px] z-[-2] mr-10'
+        initial={{ opacity: 0, x: 450 }}
+        animate={{ opacity: 1, x: 450 }}
+        transition={{ type: 'spring', stiffness: 100, delay: 0.5 }}>
+        <Image src='https://osk-neocar.pl/images/bike.png' alt='motocykl' priority fill sizes='100vh' />
+      </motion.div>
       <div className='flexCenter flex-col mt-3 lg:mt-10 text-lg lg:text-2xl z-10 text-[var(--text-white-1)] font-semibold'>
         <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           Kategoria B już od

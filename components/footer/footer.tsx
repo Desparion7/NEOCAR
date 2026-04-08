@@ -17,7 +17,7 @@ const sectionOneData = [
 const sectionTwoData = [
   {
     title: 'Biuro',
-    text: ['Godziny otwarcia:', 'Poniedziałek, Wtorek 11:00-16:00, Środa, Czwartek 12:00-16:00'],
+    text: ['Godziny otwarcia:', 'Poniedziałek, Środa, Czwartek 11:00-16:00'],
   },
 ];
 const sectionThreeData = [
@@ -45,7 +45,7 @@ const Footer = () => {
               className='mb-2'
             />
             <p className='text-sm'>
-              OSK NEOCAR zajmuje się nauką jazdy, kursami na prawo jazdy kat. B
+              OSK NEOCAR zajmuje się nauką jazdy, kursami na prawo jazdy kat. B, A, A1, A2,
               oraz jazdami doszkalającymi.
             </p>
             <a
@@ -87,7 +87,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <div className=' flex text-center text-xs mt-2'>
+        {/* <div className=' flex text-center text-xs mt-2'>
           <p>
             Strona wykonana przez firmę Modezp -{' '}
             <a
@@ -98,7 +98,7 @@ const Footer = () => {
               www.modezp.com
             </a>
           </p>
-        </div>
+        </div> */}
       </Wrapper>
     </footer>
   );

@@ -17,7 +17,7 @@ export const moreInfo = [
 ] as const;
 
 export const requirements = [
-	{ img: ID_Verified, text: 'Musisz mieć minimum 17 lat i 9 miesięcy' },
+	{ img: ID_Verified, text: 'Musisz mieć minimum 16 lat i 9 miesięcy' },
 	{
 		img: Signing_A_Document,
 		text: 'Pisemna zgoda rodzica lub opiekuna, jeżeli nie ukończyłeś/łaś 18 lat',

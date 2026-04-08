@@ -6,7 +6,6 @@ const offerData = [
   'Multimedialne wykłady',
   'Książka + testy do nauki GRATIS',
   'Możliwość płatności w ratach',
-  'Możliwość zapisu 3 miesiące przed 18-stką',
   'Dodatkowe jazdy doszkalające',
 ];
 
